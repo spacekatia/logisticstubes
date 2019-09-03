@@ -2,7 +2,7 @@ data:extend({
     {
         type = "container",
         name = "routing-node",
-        icon = "__LogisticsPipes__/graphics/icon.png",
+        icon = "__logisticstubes__/graphics/icon.png",
         icon_size = 32,
         flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 0.1, result = "routing-node"},
@@ -17,7 +17,7 @@ data:extend({
         vehicle_impact_sound =  { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
         picture =
         {
-          filename = "__LogisticsPipes__/graphics/entity.png",
+          filename = "__logisticstubes__/graphics/entity.png",
           priority = "extra-high",
           width = 46,
           height = 33,
@@ -27,7 +27,7 @@ data:extend({
     {
         type = "item",
         name = "routing-node",
-        icon = "__LogisticsPipes__/graphics/icon.png",
+        icon = "__logisticstubes__/graphics/icon.png",
         icon_size = 32,
         flags = {},
         subgroup = "storage",
